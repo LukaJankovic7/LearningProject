@@ -244,12 +244,12 @@ h2 {
     box-shadow: 3px 3px 5px #adadad;
     opacity: 0;
     animation: FadeOut 0.5s;
+    transition: visibility 0s linear 0.5s,opacity .5s linear;
 }
 
 .bar-out:hover .tooltip {
     visibility: visible;
     opacity: 1;
-    transition: opacity .5s ease-out;
     transition-delay: 0.5s;
 }
 
