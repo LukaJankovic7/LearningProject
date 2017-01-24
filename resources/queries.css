@@ -1,0 +1,404 @@
+@media only screen and (max-width:1270px) {
+    .wrapper {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    .small-text {
+        font-size: 120%;
+    }
+    
+    .circle {
+        height: 5rem;
+        width: 5rem;
+    }
+    
+    .quart-circle {
+        height: 2.5rem;
+        width: 2.5rem;
+
+    }
+    
+    .icon {
+        font-size: 2.5rem;
+        margin-top: 1.3rem;
+    }
+    
+    .in-circle-text {
+        font-size: 70%;
+    }
+    
+    .nav-item {
+        width: 6rem;
+        font-size: 120%;
+    }
+    
+    .drop-menu-item {
+        font-size: 95%;
+    }
+}
+
+@media only screen and (max-width:1155px) {
+
+    .lower-width {
+        width: 40%;
+    }
+    
+    .small-circle {
+        height: 1rem;
+        width: 1rem;
+        left: 0.07rem;
+    }
+    
+    .circle {
+        height: 4.5rem;
+        width: 4.5rem;
+    }
+    
+    .quart-circle {
+        height: 2.25rem;
+        width: 2.25rem;
+
+    }
+
+    .in-circle-text {
+        font-size: 70%;
+    }
+    
+    .icon {
+        font-size: 2.5rem;
+        margin-top: 1rem;
+    }
+    
+}
+
+
+
+@media only screen and (max-width:1024px) {
+    
+    .small-text {
+        font-size: 110%;
+    }
+
+    .small-link {
+        font-size: 110%;
+    }
+    
+    h2 {
+        font-size: 110%;
+    }
+    
+    .small-circle {
+        height: 0.8rem;
+        width: 0.8rem;
+        left: 0.15rem;
+    }
+    
+    .less-space {
+        height: 3.6rem;
+    }
+    
+    .center-col-3 {
+        margin-left: 5%;
+    }
+    
+    .back-block {
+        height: 27rem;
+    }
+    
+    .small {
+        height: 26.5rem;
+    }
+    
+    .classic-text {
+        font-size: 90%;
+    }
+    
+    .text {
+        font-size: 90%;
+    }
+    
+    .circle {
+        height: 4rem;
+        width: 4rem;
+    }
+    
+    .quart-circle {
+        height: 2rem;
+        width: 2rem;
+
+    }
+    
+    .icon {
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+    
+    .in-circle-text {
+        font-size: 60%;
+    }
+    
+    .bar-out {
+        height: 0.5rem;
+    }
+    
+    .bar-item {
+        margin-bottom: 0rem;
+        height: 1.8rem;
+    }
+    
+    .nav-item {
+        width: 5.3rem;
+        font-size: 100%;
+    }
+    
+    .drop-menu-item {
+        font-size: 85%;
+    }
+    
+    .drop-menu {
+        width: 5rem;
+    }
+    
+    .tooltip {
+        width: 99%;
+        height: 600%;
+    }
+    
+    .tt-arrow {
+        border-top: 0.45rem solid transparent;
+        border-left: 0.45rem solid #fff;
+        border-right: 0.45rem solid #fff;
+    }
+    
+    .gradient-arrow{
+        width: 0.9rem;
+        height: 0.45rem;
+    }
+}
+
+@media only screen and (max-width:890px) {
+    
+    
+    
+    
+    .icon {
+        margin-top: 1.1rem;
+    }
+    
+    .we-text {
+        height: 5.5rem;
+    }
+    
+    .less-space {
+        height: 4.5rem;
+    }
+    
+    .back-block {
+        height: 29.6rem;
+    }
+    
+    .big-space {
+        margin-bottom: 0;
+    }
+    
+    .skills {
+        width: 5rem;
+    }
+    
+}
+
+@media only screen and (max-width:750px) {
+    
+    .small-text {
+        font-size: 100%;
+    }
+
+    .small-link {
+        font-size: 100%;
+    }
+    
+    .after-p {
+        margin-bottom: 1.5rem;
+    }
+    
+    .span-2-of-2 {
+		width: 100%; 
+	}
+	.span-1-of-2 {
+		width: 100%; 
+	}
+    
+    .circle {
+        height: 4rem;
+        width: 4rem;
+    }
+    
+    .icon {
+        font-size:35;
+        margin-top: 1rem;
+    }
+    
+    .in-circle-text {
+        font-size: 70%;
+    }
+    
+    .we-text{
+        height: 3.5rem;
+    }
+    
+    .more-space {
+        height: 4rem;
+    }
+    
+    .back-block {
+        height: 25.6rem;
+    }
+    
+    .small {
+        height: 23.6rem;
+    }
+    
+    .spacing-r {
+        padding-left: 0%;
+    }
+    
+    .spacing-top {
+        padding-top: 3.6rem;
+    }
+    
+    .quart-circle {
+        height: 2rem;
+        width: 2rem;
+
+    }
+    
+    .center-col-2 {
+        margin-left: 10%;
+    }
+     
+    .center-col-3 {
+        margin-left: 10%;
+    }
+    
+    .skills {
+        width: 4.6rem;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .nav-item {
+        width: 5rem;
+        font-size: 86%;
+        margin-right: 0.8rem;
+        padding: 3% 0 1% 0;
+    }
+    
+    .drop-menu-item {
+        font-size: 80%;
+        padding-top: 3%;
+        padding-bottom: 4%;
+    }
+    
+    .small-text {
+        font-size: 90%;
+    }
+
+    .small-link {
+        font-size: 90%;
+    }
+    
+    .skills {
+        width: 4.2rem;
+    }
+    
+    .drop-menu{
+        width:5rem;
+    }
+    
+    .center-col-3 {
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width:450px) {    
+    h1 {
+        font-size: 5vmax;
+    }
+    
+    .small-text {
+        font-size: 80%;
+        font-weight: 300;
+    }
+
+    .small-link {
+        font-size: 80%;
+        font-weight: 300;
+    }
+    
+    .more-space {
+        height: 5rem;
+    }
+    
+    .back-block {
+        height: 27.7rem;
+    }
+    
+    .small {
+        height: 23.6rem;
+    }
+    
+    .circle {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    
+    .quart-circle {
+        height: 1.75rem;
+        width: 1.75rem;
+
+    }
+    
+    .in-circle-text {
+        font-size: 50%;
+        font-weight: 300;
+    }
+    
+    .icon {
+        font-size: 30;
+        margin-top: 1rem;
+    }
+    
+    *{
+        font-size: 18px;
+    }
+    
+    .nav-item {
+        width: 4.5rem;
+        font-size: 85%;
+        margin-right: 0.3rem;
+    }
+    
+    .in-circle-text {
+        color: #000000;
+    }
+    
+    .skills {
+        width: 3.7rem;
+    }
+    
+    .drop-menu{
+        width:4.5rem;
+    }
+}
+    
+@media only screen and (max-width:350px) {
+    
+    .skills {
+        width: 3rem;
+    }
+    
+    .drop-menu{
+        width:4.5rem;
+    }
+}

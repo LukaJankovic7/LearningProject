@@ -1,0 +1,435 @@
+* {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;    
+}
+
+a {
+    text-decoration: none;
+    color: #626262;
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 1200px;
+    position: relative;
+}
+
+.relative {
+    position: relative;
+}
+
+.high {
+    height: 100%;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 0.7rem;
+}
+
+.big-space{
+    margin-bottom: 5.7rem;
+}
+
+.after-p {
+    margin-bottom: 2.8rem;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.section-space {
+    position: relative;
+}
+
+p{
+    margin: 0 0;
+}
+
+.clear {
+    clear: both;
+    overflow: hidden;
+}
+
+.center-col-2 {
+    margin-left: 10%;
+}
+
+.center-col-3 {
+    margin-left: 10%;
+}
+
+.inline {
+    display: inline-block;
+}
+
+header {
+    text-align: right;
+    position: relative;
+    z-index: -1;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/*-------NASLOVI---------------*/
+h1{
+    margin: 0 0;
+    font-size: 9vw;
+    font-weight: 400;
+    color: #383838;
+    margin: 0 0;
+    line-height: 90%;
+}
+
+h2 {
+    margin-top: 4.5rem;
+    font-size: 130%;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: -1px;
+    border-bottom: 1px solid;
+    margin-bottom: 2.8rem;
+}
+
+/*-------PODTEKST U HEDERU-----------*/
+
+.small-text {
+    font-size: 140%;
+    font-weight: 100;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+
+.small-link {
+    font-size: 140%;
+    font-weight: 100;
+    padding-left: 1rem;
+    text-decoration: none;
+    color: #000000;
+}
+
+.close-line {
+    margin: 0 0;
+}
+
+/*---------NAV-BAR-------------*/
+.nav {
+    cursor: default;
+}
+
+.nav-item {
+    width: 7rem;
+    font-size: 130%;
+    color: #626262;
+    margin-right: 1rem;
+    box-shadow: -4px 4px 5px  #dddddd;
+    padding: 0% 2% 0% 2%;
+    background-color: #f5f5f5;
+}
+
+.nav-item:hover{
+    background-color: #eaeaea;
+}
+
+.drop-menu {
+    background-color: #f5f5f5;
+    background-color: #f5f5f5;
+    padding-top: 1%;
+    border-top: 1px solid #eaeaea;
+    box-shadow: -4px 4px 5px  #dddddd;
+    width: 6rem;
+    position: absolute;
+    margin-left: 0;
+}
+
+.visible {
+    display: inline-block;
+}
+
+.d-info {
+    display: none; 
+}
+
+.d-exp {
+
+    display: none; 
+}
+
+.d-skills {
+
+    display:none; 
+}
+
+.drop-menu-item {
+    color: #626262;
+    padding: 2% 5% 3% 5%;
+    line-height: 90%;
+}
+
+.drop-menu-item:hover {
+    background-color: #eaeaea;
+}
+
+.on-top {
+    position: relative;
+    z-index: 2;
+}
+
+/*------------TEXT--------------*/
+
+.classic-text {
+    font-size: 100%;
+    font-weight: 300;
+    line-height: 130%;
+    letter-spacing: 0px;
+}
+
+/*----------------------------*/
+.center {
+    margin: auto;
+    align-content: center;
+    width: 80%;
+}
+
+.text-a {
+    position: relative;
+    bottom: 4.6rem;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #626262;
+}
+
+.icon {
+    display: inline-block;
+    font-size: 2.9rem;
+    margin-top: 1.4rem;
+}
+
+.spacing-r {
+    padding-left: 10%;
+}
+
+.spacing-l {
+    padding-right: 10%;
+}
+
+/*------TECH SKILLS---------*/
+.bar-out {
+    margin-top: 1%;
+    border: 0.5px solid #656565;
+    width: 40%;
+    height: 0.7rem;
+    float: right;
+    position: relative;
+    
+}
+
+.tooltip {
+    border-radius: 8%;
+    position: absolute;
+    height: 500%;
+    width: 80%;
+    visibility: hidden;
+    background-color: #d6d6d6;
+    bottom: 200%;
+    box-shadow: 3px 3px 5px #adadad;
+    opacity: 0;
+    animation: FadeOut 0.5s;
+}
+
+.bar-out:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity .5s ease-out;
+    transition-delay: 0.5s;
+}
+
+@keyframes FadeOut {
+    1% {visibility: visible;}
+    100% {visibility: hidden;}
+}
+
+.tt-arrow {
+    position: absolute;
+    height: 0rem;
+    width: 0rem;
+    top: 100%;
+    left: 30%;
+    border-top: 0.6rem solid transparent;
+    border-left: 0.6rem solid #fff;
+    border-right: 0.6rem solid #fff;
+    z-index: -20;
+}
+
+.gradient-arrow{
+    position: absolute;
+    width: 1.2rem;
+    height: 0.6rem;
+    top: 100%;
+    left: 30%;
+    z-index: -40;
+    background: linear-gradient(to top right, #c3c3c3,rgb(126, 126, 126) );
+}
+
+.bar-in {
+    height: 100%;
+    background-color: #656565;
+}
+
+.bar-fill {
+    position: relative;
+    height: 20%;
+    width: 100%;
+}
+
+.bar-item {
+    position: relative;
+    display: table;
+    width: 100%;
+    clear: both;
+    padding: 0 0;
+    margin-bottom: 0.5rem;
+overflow: visible;
+}
+
+.top-div {
+    height: 10%;
+    width: 100%;
+}
+
+
+
+/*------LANGUAGES----------*/
+  
+.circle {
+    height: 6rem;
+    width: 6rem;
+    text-align: center;
+    display: table;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    position: relative;
+}
+
+.full {
+    border: 1px solid #656565;
+}
+
+.quart-circle{
+    width: 3rem;
+    height: 3rem;
+    border-top: 1px solid #656565;
+    border-right: 1px solid #656565;
+    border-radius: 0 100% 0 0;
+    position: absolute;
+    right: 0;
+}
+
+.in-circle-text {
+    font-size: 85%;
+    letter-spacing: 2px;
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: 300;
+    color: #656565;
+}
+
+/*--------ABOUT ME----------*/
+.invisible {
+    background-color: #fff;
+    border: 0;
+    margin: auto;
+}
+
+/*-------WORK EXPERIENCE----------*/
+.we-text {
+    
+    height: 4.5rem;
+    width: 80%;
+    margin-left: 2.8rem;
+}
+
+.back-block {
+    height: 27.5rem;
+    border-left: 1px solid #656565;
+    position: absolute;
+    left: 0.6rem;
+}
+
+.small {
+    height: 26.5rem;
+}
+
+.small-circle {
+    position: absolute;
+    height: 1.1rem;
+    width: 1.1rem;
+    border-radius: 50%;
+    background-color: #656565;
+    border: 1px solid #656565;
+    left: -0rem;
+}
+
+.invisible-s-c{
+    border: 0;
+    background-color: rgba(255,255,255,0);
+}
+
+.extra-small-circle {
+    position: absolute;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    background-color: #656565;
+    border: 1px solid #656565;
+    left: 0.3rem;
+    top: 1.5rem;
+}
+
+.top {
+    top: -0.5rem;
+}
+
+.work-history-el {
+    margin-bottom: 3.5rem;
+    position: relative;
+}
+
+.triangle {
+    height: 0rem;
+    width: 0rem;
+    border-left: 0.6rem solid transparent;
+    border-right: 0.6rem solid transparent;
+    border-bottom: 1rem solid #656565;
+}
+
+span {
+    font-weight: 700;
+}
+/*-----BARS-----*/
+.html5 {width: 50%}
+.css3 {width: 50%}
+.sass {width: 0%}
+.git {width: 0%}
+.wordpress-theming {width: 0%}
+.java-script {width: 10%}
+.php {width: 0%}
+.project-managment {width: 0%}
+.agile {width: 0%}
+.jira {width: 0%}
+.trello {width: 0%}
+.writing-effective-tasks {width: 0%}
+.learning {width: 75%}
+.organisation {width: 75%}
+.creativity {width: 75%}
+.communication {width: 75%}
+.teamwork {width: 75%}
